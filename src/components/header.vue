@@ -2,13 +2,13 @@
     <div class="header-wrap">
         <div class="header clearfix">
             <ul class="fl menu-fl">
-                <li><a href="#" class="icon-home3"></a></li>
-                <li><a href="#">WEB前端</a></li>
+                <li><a href="https://sasonhe.github.io/" class="icon-home3"></a></li>
+                <li><a href="https://sasonhe.github.io/">WEB前端</a></li>
             </ul>
             <ul class="fr menu-fr">
-                <li><a href="#">首页</a></li>
-                <li><a href="#">我的简历</a></li>
-                <li><a href="#">GitHub</a></li>
+                <li><a href="https://sasonhe.github.io/">首页</a></li>
+                <li><a href="https://sasonhe.github.io/sasonhe.my.github.io/">我的简历</a></li>
+                <li><a href="https://github.com/sasonhe">GitHub</a></li>
             </ul>
         </div>
     </div>
