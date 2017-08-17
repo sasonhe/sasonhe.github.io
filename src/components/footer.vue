@@ -1,0 +1,32 @@
+<template>
+<div class="footer-wrap">
+    <div class="footer">
+        <p>Copyright © 2016-2017 www.sasonhe.com</p>
+        <p>All Rights Reserved.Sason He 版权所有. 粤ICP备XXXXXXXX号</p>
+    </div>
+</div>
+</template>
+<script>
+export default{
+    components:{
+
+    }
+}
+</script>
+<style scoped>
+.footer-wrap{
+    width: 100%;
+    height: 50px;
+    background: #3b3e43;
+}
+.footer-wrap .footer{
+    width: 980px;
+    padding: 10px 0px;
+    text-align: center;
+    margin: 0 auto;
+}
+.footer-wrap .footer p{
+    font-size: 12px;
+    color: #e3e5e1
+}
+</style>

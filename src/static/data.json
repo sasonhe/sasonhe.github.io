@@ -1,0 +1,253 @@
+{
+    "tools":[
+        {
+            "name":"Node.js",
+            "imgSrc":"/src/assets/images/tools/node.jpg",
+            "description":"Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript engine.",
+            "url":"https://nodejs.org"
+        },
+        {
+            "name":"webpack",
+            "imgSrc":"/src/assets/images/tools/webpack.jpg",
+            "description":"webpack 是一个现代 JavaScript 应用程序的模块打包器(module bundler)。",
+            "url":"https://doc.webpack-china.org/"
+        },
+        {
+            "name":"Vue.js 中文网",
+            "imgSrc":"/src/assets/images/tools/vue.jpg",
+            "description":"vue是一套构建用户界面的渐进式框架。与其他重量级框架不同的是，Vue 采用自底向上增量开发的设计。",
+            "url":"https://cn.vuejs.org/"
+        },
+        {
+            "name":"NPM",
+            "imgSrc":"/src/assets/images/tools/npm.jpg",
+            "description":"npm is the package manager for JavaScript and the world’s largest software registry. Discover packages of reusable code — and assemble them in powerful new ways.",
+            "url":"https://www.npmjs.com/"
+        },
+        {
+            "name":"React.js 中文网",
+            "imgSrc":"/src/assets/images/tools/react.jpg",
+            "description":"reactjs可以使构建交互UI的过程变得简单。对于你的应用里面的每个状态视图，当数据变化的时候，React都会及时并且正确有效率地进行对其更新。",
+            "url":"https://reactjs.org.cn/"
+        },
+        {
+            "name":"Angular.js 中文网",
+            "imgSrc":"/src/assets/images/tools/angular.jpg",
+            "description":"AngularJS Seed 是典型 AngularJS web 应用的应用骨架，可以快速启动你的 AngularJS webapp 项目和这些项目的开发环境。",
+            "url":"http://www.angularjs.net.cn/"
+        },
+        {
+            "name":"Gulp 中文网",
+            "imgSrc":"/src/assets/images/tools/gulp.jpg",
+            "description":"用自动化构建工具增强你的工作流程！",
+            "url":"http://www.gulpjs.com.cn/"
+        },
+        {
+            "name":"SeaJS",
+            "imgSrc":"/src/assets/images/tools/sea.jpg",
+            "description":"提供简单、极致的模块化开发体验",
+            "url":"https://seajs.github.io/seajs/"
+        },
+        {
+            "name":"grunt",
+            "imgSrc":"/src/assets/images/tools/grunt.jpg",
+            "description":"The Grunt ecosystem is huge and it's growing every day. With literally hundreds of plugins to choose from, you can use Grunt to automate just about anything with a minimum of effort. If someone hasn't already built what you need, authoring and publishing your own Grunt plugin to npm is a breeze. See how to get started.",
+            "url":"https://gruntjs.com/"
+        },
+        {
+            "name":"FIS3 中文网",
+            "imgSrc":"/src/assets/images/tools/fis3.jpg",
+            "description":"FIS3 , 为你定制的前端工程构建工具",
+            "url":"http://fis.baidu.com/"
+        },
+        {
+            "name":"Bower",
+            "imgSrc":"/src/assets/images/tools/bower.jpg",
+            "description":"A package manager for the web",
+            "url":"https://bower.io/"
+        },
+        {
+            "name":"yeoman",
+            "imgSrc":"/src/assets/images/tools/yeoman.jpg",
+            "description":"Yeoman helps you to kickstart new projects, prescribing best practices and tools to help you stay productive.",
+            "url":"http://yeoman.io/"
+        },
+        {
+            "name":"Phaser.js",
+            "imgSrc":"/src/assets/images/tools/phaser.jpg",
+            "description":"PC端和移动端HTML5游戏框架 。",
+            "url":"http://phaser.io/"
+        }
+
+    ],
+    "hot":[
+        {
+            "name":"bootstrap 中文网",
+            "imgSrc":"/src/assets/images/hot/bootstrap.jpg",
+            "description":"简洁、直观、强悍的前端开发框架，让web开发更迅速、简单。",
+            "url":"http://www.bootcss.com/"
+        },
+        {
+            "name":"jQuery",
+            "imgSrc":"/src/assets/images/hot/jquery.jpg",
+            "description":"jQuery is a fast, small, and feature-rich JavaScript library. It makes things like HTML document traversal and manipulation, event handling, animation, and Ajax much simpler with an easy-to-use API that works across a multitude of browsers. With a combination of versatility and extensibility, jQuery has changed the way that millions of people write JavaScript.",
+            "url":"https://jquery.com/"
+        },
+        {
+            "name":"jQuery-Mobile",
+            "imgSrc":"/src/assets/images/hot/jquery-mobile.jpg",
+            "description":"jQuery Mobile is a HTML5-based user interface system designed to make responsive web sites and apps that are accessible on all smartphone, tablet and desktop devices.",
+            "url":"https://jquerymobile.com/"
+        },
+        {
+            "name":"ionic",
+            "imgSrc":"/src/assets/images/hot/ionic.jpg",
+            "description":"Ionic is the beautiful, free and open source mobile SDK for developing native and progressive web apps with ease.",
+            "url":"http://ionicframework.com/"
+        },
+        {
+            "name":"mint-ui",
+            "imgSrc":"/src/assets/images/hot/mint-ui.jpg",
+            "description":"基于 Vue.js 的移动端组件库",
+            "url":"https://mint-ui.github.io/#!/zh-cn"
+        },
+        {
+            "name":"Flat UI",
+            "imgSrc":"/src/assets/images/hot/flatui.jpg",
+            "description":"免费的WEB界面工具组件库",
+            "url":"http://www.bootcss.com/p/flat-ui/"
+        },
+        {
+            "name":"Amaze UI",
+            "imgSrc":"/src/assets/images/hot/amazeui.jpg",
+            "description":"中国首个开源 HTML5 跨屏前端框架",
+            "url":"http://amazeui.org/"
+        },
+        {
+            "name":"Foundation 中文网",
+            "imgSrc":"/src/assets/images/hot/foundation.jpg",
+            "description":"迄今为止最好的响应式前端框架，更快、更轻、更多功能、更灵活、更强大！",
+            "url":"http://www.foundcss.com/"
+        }
+    ],
+    "css":[
+        {
+            "name":"Animate.css",
+            "imgSrc":"/src/assets/images/cssimg/animate.jpg",
+            "description":"Animate.css 一款强大的预设css3动画库",
+            "url":"https://daneden.github.io/animate.css/"
+        },
+        {
+            "name":"less-bootstrap",
+            "imgSrc":"/src/assets/images/cssimg/less-bootstrap.jpg",
+            "description":"一种 动态 样式 语言.",
+            "url":"http://www.bootcss.com/p/lesscss/"
+        },
+        {
+            "name":"Normalize.css",
+            "imgSrc":"/src/assets/images/cssimg/normalize.jpg",
+            "description":"A modern, HTML5-ready alternative to CSS resets",
+            "url":"https://necolas.github.io/normalize.css/"
+        },
+        {
+            "name":"Less 中文网",
+            "imgSrc":"/src/assets/images/cssimg/less-cn.jpg",
+            "description":"Less 是一门 CSS 预处理语言，它扩展了 CSS 语言，增加了变量、Mixin、函数等特性，使 CSS 更易维护和扩展。",
+            "url":"http://lesscss.cn/"
+        },
+        {
+            "name":"SASS 中文网",
+            "imgSrc":"/src/assets/images/cssimg/sass-cn.jpg",
+            "description":"Sass 是对 CSS 的扩展，让 CSS 语言更强大、优雅。 它允许你使用变量、嵌套规则、 mixins、导入等众多功能， 并且完全兼容 CSS 语法。",
+            "url":"http://www.sasschina.com/"
+        },
+        {
+            "name":"weui",
+            "imgSrc":"/src/assets/images/cssimg/weui.jpg",
+            "description":"WeUI 是一套同微信原生视觉体验一致的基础样式库，由微信官方设计团队为微信 Web 开发量身设计，可以令用户的使用感知更加统一。",
+            "url":"https://weui.io/"
+        },
+        {
+            "name":"Less for W3cplus",
+            "imgSrc":"/src/assets/images/cssimg/less-w3cplus.jpg",
+            "description":"Less是一种动态的样式语言。Less扩展了CSS的动态行为，比如说，设置变量（Variables）、混合书写模式（mixins）、操作（operations）和功能（functions）等等。",
+            "url":"http://www.w3cplus.com/css/less"
+        },
+        {
+            "name":"Stylus",
+            "imgSrc":"/src/assets/images/cssimg/stylus.jpg",
+            "description":"Stylus is a revolutionary new language, providing an efficient, dynamic, and expressive way to generate CSS. Supporting both an indented syntax and regular CSS style.",
+            "url":"http://stylus-lang.com/"
+        }
+    ],
+    "software":[
+        {
+            "name":"WebStorm",
+            "imgSrc":"/src/assets/images/Software/WebStorm.jpg",
+            "description":"The smartest JavaScript IDE",
+            "url":"http://www.jetbrains.com/webstorm/"
+        },
+        {
+            "name":"atom",
+            "imgSrc":"/src/assets/images/Software/atom.jpg",
+            "description":"A hackable text editor for the 21st Century",
+            "url":"https://atom.io/"
+        },
+        {
+            "name":"Dreamweaver",
+            "imgSrc":"/src/assets/images/Software/Dreamweaver.jpg",
+            "description":"Dreamweaver 经过重新设计，添加了新式界面和快速灵活的编码引擎，可让 Web 设计人员和前端开发人员更轻松地创建、编码和管理外观精美且适合任何屏幕大小的网站",
+            "url":"http://www.adobe.com/cn/products/dreamweaver.html"
+        },
+        {
+            "name":"Eclipse",
+            "imgSrc":"/src/assets/images/Software/Eclipse.jpg",
+            "description":"Eclipse 是一个开放源代码的、基于Java的可扩展开发平台。就其本身而言，它只是一个框架和一组服务，用于通过插件...",
+            "url":"https://www.eclipse.org/"
+        },
+        {
+            "name":"HBuilder",
+            "imgSrc":"/src/assets/images/Software/HBuilder.jpg",
+            "description":"HBuilder-飞速编码的极客工具，手指爽，眼睛爽下载",
+            "url":"http://www.dcloud.io/"
+        },
+        {
+            "name":"Illustrator",
+            "imgSrc":"/src/assets/images/Software/Illustrator.jpg",
+            "description":"Adobe illustrator是一种应用于出版、多媒体和在线图像的工业标准矢量插画的软件，作为一款非常好的矢量图形处理工具，Adobe...",
+            "url":"http://www.adobe.com/cn/products/illustrator.html"
+        },
+        {
+            "name":"编译工具Koala",
+            "imgSrc":"/src/assets/images/Software/Koala.jpg",
+            "description":"koala是一个前端预处理器语言图形编译工具，支持Less、Sass、Compass、CoffeeScript，帮助web开发者更高效地使用它们进行开发。跨平台运行，完美兼容windows、linux、mac。",
+            "url":"http://koala-app.com/"
+        },
+        {
+            "name":"Sublime Text",
+            "imgSrc":"/src/assets/images/Software/Sublime.jpg",
+            "description":"Sublime Text is a sophisticated text editor for code, markup and prose. You'll love the slick user interface, extraordinary features and amazing performance.",
+            "url":"https://www.sublimetext.com/"
+        },
+        {
+            "name":"svg生成工具",
+            "imgSrc":"/src/assets/images/Software/svg.jpg",
+            "description":"svg在线生成工具",
+            "url":"http://editor.method.ac/"
+        },
+        {
+            "name":"Vim",
+            "imgSrc":"/src/assets/images/Software/Vim.jpg",
+            "description":"Vim是一个类似于Vi的著名的功能强大、高度可定制的文本编辑器，在Vi的基础上改进和增加了很多特性。VIM是自由软件。Vim普遍被推崇为类Vi编辑器中最好的一个，事实上真正的劲敌...",
+            "url":"http://www.vim.org/"
+        },
+        {
+            "name":"PhotoShop",
+            "imgSrc":"/src/assets/images/Software/PhotoShop.jpg",
+            "description":"世界上最好的图像处理和设计应用程序是几乎每个创意项目的核心所在。在桌面上创建和优化摄影作品、Web 和移动应用程序设计以及 3D 图稿、视频等等",
+            "url":"http://www.adobe.com/cn/products/photoshop.html"
+        }
+
+    ]
+
+}
