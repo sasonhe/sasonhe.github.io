@@ -5,9 +5,6 @@
 
 https://sasonhe.github.io/
 
-我的简历
-
-https://sasonhe.github.io/sasonhe.my.github.io/
 
 ## Build Setup
 
