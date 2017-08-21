@@ -2,7 +2,7 @@
 <div class="footer-wrap">
     <div class="footer">
         <p>Copyright © 2016-2017 www.sasonhe.com</p>
-        <p>All Rights Reserved.Sason He 版权所有. 粤ICP备XXXXXXXX号</p>
+        <p>All Rights Reserved.Sason He 版权所有. 粤ICP备17104686号-1</p>
     </div>
 </div>
 </template>
