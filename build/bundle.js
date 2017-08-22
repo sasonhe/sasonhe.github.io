@@ -12019,7 +12019,7 @@ exports = module.exports = __webpack_require__(0)(undefined);
 
 
 // module
-exports.push([module.i, "\n.footer-wrap[data-v-2536ff40]{\r\n    width: 100%;\r\n    height: 50px;\r\n    background: #3b3e43;\n}\n.footer-wrap .footer[data-v-2536ff40]{\r\n    width: 980px;\r\n    padding: 10px 0px;\r\n    text-align: center;\r\n    margin: 0 auto;\n}\n.footer-wrap .footer p[data-v-2536ff40]{\r\n    font-size: 12px;\r\n    color: #e3e5e1\n}\r\n", ""]);
+exports.push([module.i, "\n.footer-wrap[data-v-2536ff40]{\r\n    width: 100%;\r\n    height: 50px;\r\n    background: #3b3e43;\n}\n.footer-wrap .footer[data-v-2536ff40]{\r\n    width: 980px;\r\n    padding: 10px 0px;\r\n    text-align: center;\r\n    margin: 0 auto;\n}\n.footer-wrap .footer p[data-v-2536ff40],.footer-wrap .footer a[data-v-2536ff40]{\r\n    font-size: 12px;\r\n    color: #e3e5e1\n}\r\n", ""]);
 
 // exports
 

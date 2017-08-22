@@ -25,7 +25,7 @@ export default{
     text-align: center;
     margin: 0 auto;
 }
-.footer-wrap .footer p{
+.footer-wrap .footer p,.footer-wrap .footer a{
     font-size: 12px;
     color: #e3e5e1
 }
