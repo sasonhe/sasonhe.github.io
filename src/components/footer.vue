@@ -1,8 +1,8 @@
 <template>
 <div class="footer-wrap">
     <div class="footer">
-        <p>Copyright © 2016-2017 www.sasonhe.com</p>
-        <p>All Rights Reserved.Sason He 版权所有. 粤ICP备17104686号-1</p>
+        <p>Copyright © 2016-2017 <a href="www.sasonhe.com">www.sasonhe.com</a></p>
+        <p>All Rights Reserved.Sason He 版权所有. 粤ICP备17104686号</p>
     </div>
 </div>
 </template>
