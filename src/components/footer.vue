@@ -29,4 +29,7 @@ export default{
     font-size: 12px;
     color: #e3e5e1
 }
+.footer-wrap .footer a:hover{
+    text-decoration: underline;
+}
 </style>
