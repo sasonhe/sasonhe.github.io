@@ -5,7 +5,7 @@ import VueResource from 'vue-resource'
 import App from './App.vue'
 import routes from './router.config'
 import './common/css/style.css'
-
+// 注册路由
 Vue.use(VueRouter)
 Vue.use(VueResource)
 
