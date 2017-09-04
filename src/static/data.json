@@ -158,7 +158,32 @@
             "imgSrc":"/src/assets/images/hot/foundation.jpg",
             "description":"迄今为止最好的响应式前端框架，更快、更轻、更多功能、更灵活、更强大！",
             "url":"http://www.foundcss.com/"
+        },
+        {
+            "name":"jQuery",
+            "imgSrc":"/src/assets/images/hot/jquery.jpg",
+            "description":"jQuery is a fast, small, and feature-rich JavaScript library. It makes things like HTML document traversal and manipulation, event handling, animation, and Ajax much simpler with an easy-to-use API that works across a multitude of browsers. With a combination of versatility and extensibility, jQuery has changed the way that millions of people write JavaScript.",
+            "url":"https://jquery.com/"
+        },
+        {
+            "name":"jQuery-Mobile",
+            "imgSrc":"/src/assets/images/hot/jquery-mobile.jpg",
+            "description":"jQuery Mobile is a HTML5-based user interface system designed to make responsive web sites and apps that are accessible on all smartphone, tablet and desktop devices.",
+            "url":"https://jquerymobile.com/"
+        },
+        {
+            "name":"ionic",
+            "imgSrc":"/src/assets/images/hot/ionic.jpg",
+            "description":"Ionic is the beautiful, free and open source mobile SDK for developing native and progressive web apps with ease.",
+            "url":"http://ionicframework.com/"
+        },
+        {
+            "name":"mint-ui",
+            "imgSrc":"/src/assets/images/hot/mint-ui.jpg",
+            "description":"基于 Vue.js 的移动端组件库",
+            "url":"https://mint-ui.github.io/#!/zh-cn"
         }
+        
     ],
     "css":[
         {
@@ -208,6 +233,36 @@
             "imgSrc":"/src/assets/images/cssimg/stylus.jpg",
             "description":"Stylus is a revolutionary new language, providing an efficient, dynamic, and expressive way to generate CSS. Supporting both an indented syntax and regular CSS style.",
             "url":"http://stylus-lang.com/"
+        },
+        {
+            "name":"Foundation 中文网",
+            "imgSrc":"/src/assets/images/hot/foundation.jpg",
+            "description":"迄今为止最好的响应式前端框架，更快、更轻、更多功能、更灵活、更强大！",
+            "url":"http://www.foundcss.com/"
+        },
+        {
+            "name":"jQuery",
+            "imgSrc":"/src/assets/images/hot/jquery.jpg",
+            "description":"jQuery is a fast, small, and feature-rich JavaScript library. It makes things like HTML document traversal and manipulation, event handling, animation, and Ajax much simpler with an easy-to-use API that works across a multitude of browsers. With a combination of versatility and extensibility, jQuery has changed the way that millions of people write JavaScript.",
+            "url":"https://jquery.com/"
+        },
+        {
+            "name":"jQuery-Mobile",
+            "imgSrc":"/src/assets/images/hot/jquery-mobile.jpg",
+            "description":"jQuery Mobile is a HTML5-based user interface system designed to make responsive web sites and apps that are accessible on all smartphone, tablet and desktop devices.",
+            "url":"https://jquerymobile.com/"
+        },
+        {
+            "name":"ionic",
+            "imgSrc":"/src/assets/images/hot/ionic.jpg",
+            "description":"Ionic is the beautiful, free and open source mobile SDK for developing native and progressive web apps with ease.",
+            "url":"http://ionicframework.com/"
+        },
+        {
+            "name":"mint-ui",
+            "imgSrc":"/src/assets/images/hot/mint-ui.jpg",
+            "description":"基于 Vue.js 的移动端组件库",
+            "url":"https://mint-ui.github.io/#!/zh-cn"
         }
     ],
     "software":[
@@ -276,6 +331,36 @@
             "imgSrc":"/src/assets/images/Software/PhotoShop.jpg",
             "description":"世界上最好的图像处理和设计应用程序是几乎每个创意项目的核心所在。在桌面上创建和优化摄影作品、Web 和移动应用程序设计以及 3D 图稿、视频等等",
             "url":"http://www.adobe.com/cn/products/photoshop.html"
+        },
+        {
+            "name":"Foundation 中文网",
+            "imgSrc":"/src/assets/images/hot/foundation.jpg",
+            "description":"迄今为止最好的响应式前端框架，更快、更轻、更多功能、更灵活、更强大！",
+            "url":"http://www.foundcss.com/"
+        },
+        {
+            "name":"jQuery",
+            "imgSrc":"/src/assets/images/hot/jquery.jpg",
+            "description":"jQuery is a fast, small, and feature-rich JavaScript library. It makes things like HTML document traversal and manipulation, event handling, animation, and Ajax much simpler with an easy-to-use API that works across a multitude of browsers. With a combination of versatility and extensibility, jQuery has changed the way that millions of people write JavaScript.",
+            "url":"https://jquery.com/"
+        },
+        {
+            "name":"jQuery-Mobile",
+            "imgSrc":"/src/assets/images/hot/jquery-mobile.jpg",
+            "description":"jQuery Mobile is a HTML5-based user interface system designed to make responsive web sites and apps that are accessible on all smartphone, tablet and desktop devices.",
+            "url":"https://jquerymobile.com/"
+        },
+        {
+            "name":"ionic",
+            "imgSrc":"/src/assets/images/hot/ionic.jpg",
+            "description":"Ionic is the beautiful, free and open source mobile SDK for developing native and progressive web apps with ease.",
+            "url":"http://ionicframework.com/"
+        },
+        {
+            "name":"mint-ui",
+            "imgSrc":"/src/assets/images/hot/mint-ui.jpg",
+            "description":"基于 Vue.js 的移动端组件库",
+            "url":"https://mint-ui.github.io/#!/zh-cn"
         }
 
     ]
