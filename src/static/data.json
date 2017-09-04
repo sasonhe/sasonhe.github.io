@@ -77,6 +77,36 @@
             "imgSrc":"/src/assets/images/tools/phaser.jpg",
             "description":"PC端和移动端HTML5游戏框架 。",
             "url":"http://phaser.io/"
+        },
+        {
+            "name":"bootstrap 中文网",
+            "imgSrc":"/src/assets/images/hot/bootstrap.jpg",
+            "description":"简洁、直观、强悍的前端开发框架，让web开发更迅速、简单。",
+            "url":"http://www.bootcss.com/"
+        },
+        {
+            "name":"jQuery",
+            "imgSrc":"/src/assets/images/hot/jquery.jpg",
+            "description":"jQuery is a fast, small, and feature-rich JavaScript library. It makes things like HTML document traversal and manipulation, event handling, animation, and Ajax much simpler with an easy-to-use API that works across a multitude of browsers. With a combination of versatility and extensibility, jQuery has changed the way that millions of people write JavaScript.",
+            "url":"https://jquery.com/"
+        },
+        {
+            "name":"jQuery-Mobile",
+            "imgSrc":"/src/assets/images/hot/jquery-mobile.jpg",
+            "description":"jQuery Mobile is a HTML5-based user interface system designed to make responsive web sites and apps that are accessible on all smartphone, tablet and desktop devices.",
+            "url":"https://jquerymobile.com/"
+        },
+        {
+            "name":"ionic",
+            "imgSrc":"/src/assets/images/hot/ionic.jpg",
+            "description":"Ionic is the beautiful, free and open source mobile SDK for developing native and progressive web apps with ease.",
+            "url":"http://ionicframework.com/"
+        },
+        {
+            "name":"mint-ui",
+            "imgSrc":"/src/assets/images/hot/mint-ui.jpg",
+            "description":"基于 Vue.js 的移动端组件库",
+            "url":"https://mint-ui.github.io/#!/zh-cn"
         }
 
     ],
