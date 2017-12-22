@@ -21,27 +21,26 @@
                 <router-link to="/DevelTool" exact class="tab-item">开发工具</router-link>
             </div>
             <keep-alive>
-                <transition name="slide-fade">
-                    <router-view :tools = "tools" :hot = "hot" :css = "css" :software = "software"></router-view>
+                <transition name="slide-fade" mode="out-in">
+                    <router-view :tools="tools" :hot="hot" :css="css" :software="software"></router-view>
                 </transition>
             </keep-alive>
         </div>
     </div>
     <v-footer></v-footer>
 </div>
-
 </template>
 <script>
 import header from './components/header.vue'
 import aside from './components/aside.vue'
 import footer from './components/footer.vue'
 export default {
-    data () {
+    data() {
         return {
-            tools:[],
-            hot:[],
-            css:[],
-            software:[],
+            tools: [],
+            hot: [],
+            css: [],
+            software: [],
             isShow: false,
             isfixed: false,
             scroll: ''
@@ -49,15 +48,15 @@ export default {
 
     },
     methods: {
-        handleScroll () {
-          this.isfixed = window.scrollY > 70;
-          this.isShow = window.scrollY > 292;
-      }
+        handleScroll() {
+            this.isfixed = window.scrollY > 70;
+            this.isShow = window.scrollY > 292;
+        }
     },
-    mounted () {
-      window.addEventListener('scroll', this.handleScroll);
+    mounted() {
+        window.addEventListener('scroll', this.handleScroll);
     },
-    created () {
+    created() {
         this.$http.get('../src/static/data.json').then((res) => {
             res = res.body
             this.tools = res.tools
@@ -65,7 +64,7 @@ export default {
             this.css = res.css
             this.software = res.software
 
-        },(res) => {
+        }, (res) => {
             console.log("获取数据失败！！")
         })
     },
@@ -77,7 +76,7 @@ export default {
 }
 </script>
 <style scoped>
-.show{
+.show {
     width: 100%;
     height: 61px;
     background: #fff;
@@ -87,44 +86,51 @@ export default {
     left: 0;
     z-index: 100;
 }
-.show .user{
+
+.show .user {
     width: 980px;
     height: 62px;
     margin: 0 auto;
 }
-.show .user .img{
+
+.show .user .img {
     display: inline-block;
     width: 32px;
     height: 32px;
     padding: 15px 5px 0px 0px;
 }
-.show .user .img img{
+
+.show .user .img img {
     width: 32px;
     height: 32px;
     border-radius: 3px !important;
 }
-.show .user .text{
+
+.show .user .text {
     display: inline-block;
     line-height: 62px;
     font-size: 14px;
 }
 
-.fade-enter-active, .fade-leave-active{
+.fade-enter-active,
+.fade-leave-active {
     transition: opacity .6s
 }
 
-.fade-enter, .fade-leave-to{
+.fade-enter,
+.fade-leave-to {
     opacity: 0
 }
 
 
 
-.main-wrap{
+.main-wrap {
     width: 980px;
     padding: 20px 0;
     margin: 0 auto;
 }
-.aside{
+
+.aside {
     width: 207px;
     height: 380px;
     border: 1px solid #ccc;
@@ -132,41 +138,64 @@ export default {
     margin-right: 15px;
     border-radius: 5px;
 }
-.main{
+
+.main {
     width: 748px;
-    padding-left:8px;
+    padding-left: 8px;
 }
-.main .router{
+
+.main .router {
     width: 742px;
     background: #fff;
     border-bottom: 1px solid #ccc;
 }
-.main .fixed{
+
+.main .fixed {
     position: fixed;
-    top:0;
+    top: 0;
     z-index: 101;
 }
-.main .router .tab-item:hover{
+
+.main .router .tab-item:hover {
     transition: all 0.4s;
     color: red;
 }
-.main .router .tab-item{
+
+.main .router .tab-item {
     display: inline-block;
     padding: 20px;
     border-bottom: 2px solid transparent;
     font-size: 14px;
 }
-.main .router .router-link-active{
+
+.main .router .router-link-active {
     border-bottom: 2px solid red;
     color: red;
 }
 
+/* .slide-fade-enter-active {
+    transition: all 1s ease;
+}
+
+.slide-fade-enter,
+.slide-fade-leave-to {
+    transform: translateY(-20px);
+} */
+
+.slide-fade-enter {
+    opacity: 0;
+}
+
+.slide-fade-leave {
+    opacity: 1;
+}
+
 .slide-fade-enter-active {
-  transition: all 1s ease;
+    transition: opacity .8s;
 }
 
-.slide-fade-enter, .slide-fade-leave-to {
-  transform: translateY(-20px);
+.slide-fade-leave-active {
+    opacity: 0;
+    transition: opacity .3s;
 }
-
 </style>
