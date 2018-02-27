@@ -1,7 +1,7 @@
 <template>
 <div class="home-wrap">
     <div class="title">
-        <h2>CSS工具123</h2>
+        <h2>CSS工具</h2>
     </div>
     <ul class="content clearfix" id="list">
         <li v-for="item in css">
