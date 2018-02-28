@@ -36,7 +36,7 @@ axios.interceptors.response.use(function(response) {
 axios.defaults.headers['Content-Type'] = 'application/x-www-form-urlencoded'
 Vue.prototype.$http = axios
 
-var router = new VueRouter({routes})
+var router = new VueRouter({mode: 'history', routes})
 
 new Vue({
     el: '#app',
