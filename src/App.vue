@@ -22,7 +22,7 @@
             </div>
             <keep-alive>
                 <transition name="slide-fade" mode="out-in">
-                    <router-view :tools="tools" :hot="hot" :css="css" :software="software"></router-view>
+                    <router-view></router-view>
                 </transition>
             </keep-alive>
         </div>
@@ -37,10 +37,6 @@ import footer from './components/footer.vue'
 export default {
     data() {
         return {
-            tools: [],
-            hot: [],
-            css: [],
-            software: [],
             isShow: false,
             isfixed: false,
             scroll: ''
@@ -57,16 +53,7 @@ export default {
         window.addEventListener('scroll', this.handleScroll);
     },
     created() {
-        this.$http.get('../src/static/data.json').then((res) => {
-            res = res.body
-            this.tools = res.tools
-            this.hot = res.hot
-            this.css = res.css
-            this.software = res.software
 
-        }, (res) => {
-            console.log("获取数据失败！！")
-        })
     },
     components: {
         "v-header": header,
@@ -172,6 +159,8 @@ export default {
     border-bottom: 2px solid red;
     color: red;
 }
+
+
 
 /* .slide-fade-enter-active {
     transition: all 1s ease;

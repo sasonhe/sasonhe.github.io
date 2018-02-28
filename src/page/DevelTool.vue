@@ -21,28 +21,41 @@
 </template>
 <script>
 export default {
-    props: {
-        software: {
-            type: Array
+    data() {
+        return {
+            software: []
         }
+
     },
-    methods:{
+    created() {
+        this.$http.get("/src/static/data.json")
+            .then(res => {
+                this.software = res.data.software;
+                console.log("加载成功");
+            }, res => {
+                console.log("加载失败");
+            })
+    },
+    methods: {
 
     },
     components: {
 
     }
 }
-
 </script>
 <style scoped>
-.home-wrap{padding: 15px 0;}
-.home-wrap .title{
+.home-wrap {
+    padding: 15px 0;
+}
+
+.home-wrap .title {
     padding-left: 18px;
     margin-bottom: 15px;
     border-left: 2px solid #ccc;
 }
-.home-wrap .content li{
+
+.home-wrap .content li {
     width: 228px;
     height: 285px;
     padding: 4px;
@@ -52,31 +65,46 @@ export default {
     margin: 0 6px 20px 5px;
     float: left;
 }
-.home-wrap .content li:hover{
+
+.home-wrap .content li:hover {
     border-color: red;
 }
-.home-wrap .content .no-margin-right{margin-right: 0px;}
-.home-wrap .content .top{overflow: hidden;}
-.home-wrap .content .top a{}
-.home-wrap .content .top a img{
+
+.home-wrap .content .no-margin-right {
+    margin-right: 0px;
+}
+
+.home-wrap .content .top {
+    overflow: hidden;
+}
+
+.home-wrap .content .top a {}
+
+.home-wrap .content .top a img {
     width: 230px;
     height: 164px;
     transition: all 0.8s;
-
 }
-.home-wrap .content .top a img:hover{
+
+.home-wrap .content .top a img:hover {
 
     transform: scale(1.2);
 }
-.home-wrap .content .btm{
+
+.home-wrap .content .btm {
     padding: 10px 0;
     overflow: hidden;
 }
-.home-wrap .content .btm h3{font-size: 18px;}
-.home-wrap .content .btm h3 a:hover{
+
+.home-wrap .content .btm h3 {
+    font-size: 18px;
+}
+
+.home-wrap .content .btm h3 a:hover {
     color: red;
 }
-.home-wrap .content .btm div{
+
+.home-wrap .content .btm div {
     padding-top: 8px;
     width: 100%;
     height: 65px;
