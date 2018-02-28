@@ -21,7 +21,7 @@
                 <router-link to="/DevelTool" exact class="tab-item">开发工具</router-link>
             </div>
             <keep-alive>
-                <transition name="slide-fade" mode="out-in">
+                <transition name="slide-fade">
                     <router-view></router-view>
                 </transition>
             </keep-alive>
