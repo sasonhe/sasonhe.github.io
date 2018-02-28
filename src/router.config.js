@@ -7,30 +7,18 @@ export default[
     {
         path: '/',
         name: 'home',
-        meta: {
-            keepAlive: true
-        },
         component: home
     }, {
-        path : '/frame',
+        path: '/frame',
         name: 'frame',
-        meta: {
-            keepAlive: true
-        },
         component: frame
     }, {
-        path : '/cssTool',
+        path: '/cssTool',
         name: 'cssTool',
-        meta: {
-            keepAlive: true
-        },
         component: cssTool
     }, {
-        path : '/DevelTool',
+        path: '/DevelTool',
         name: 'DevelTool',
-        meta: {
-            keepAlive: true
-        },
         component: DevelTool
     }
 ]
