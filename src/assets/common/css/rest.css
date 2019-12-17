@@ -1,0 +1,10 @@
+
+*{padding: 0px;margin: 0px;}
+body,ul,ol,dl,dd,h1,h2,h3,h4,h5,h6,p,th,td,form,input,select,textarea{margin: 0px;padding: 0px;}
+em,i{font-style: normal;}
+strong,b{font-weight: normal;}
+ul li{list-style: none;}
+a{text-decoration: none;color: #000;}
+img{vertical-align: middle;border: none;}
+input{outline: none;}
+body{font: 12px "Microsoft YaHei";color: #333;}

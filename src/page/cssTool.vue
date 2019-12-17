@@ -1,112 +1,112 @@
 <template>
 <div class="home-wrap">
-    <div class="title">
-        <h2>CSS工具</h2>
-    </div>
-    <ul class="content clearfix" id="list">
-        <li v-for="item in css">
-            <div class="top">
-                <a :href="item.url">
-                    <img :src="item.imgSrc" alt="item.description">
-                </a>
-            </div>
-            <div class="btm">
-                <h3><a :href="item.url">{{item.name}}</a></h3>
-                <div>{{item.description}}</div>
-            </div>
-        </li>
+  <div class="title">
+    <h2>CSS工具</h2>
+  </div>
+  <ul class="content clearfix" id="list">
+    <li v-for="item in css">
+      <div class="top">
+        <a :href="item.url">
+          <img :src="item.imgSrc" alt="item.description">
+        </a>
+      </div>
+      <div class="btm">
+        <h3><a :href="item.url">{{item.name}}</a></h3>
+        <div>{{item.description}}</div>
+      </div>
+    </li>
 
-    </ul>
+  </ul>
 </div>
 </template>
 <script>
 export default {
-    data() {
-        return {
-            css: []
-        }
-
-    },
-    methods: {
-
-    },
-    created() {
-        this.$http.get('/src/static/data.json').then(res => {
-            this.css = res.data.css;
-        }, res => {
-            console.log("加载失败");
-        })
-    },
-    components: {
-
+  data() {
+    return {
+      css: []
     }
+
+  },
+  methods: {
+
+  },
+  created() {
+    this.$http.getDataAll('',{}).then(res => {
+      this.css = res.css;
+    }, res => {
+      console.log("加载失败");
+    })
+  },
+  components: {
+
+  }
 }
 </script>
 <style scoped>
 .home-wrap {
-    padding: 15px 0;
+  padding: 15px 0;
 }
 
 .home-wrap .title {
-    padding-left: 18px;
-    margin-bottom: 15px;
-    border-left: 2px solid #ccc;
+  padding-left: 18px;
+  margin-bottom: 15px;
+  border-left: 2px solid #ccc;
 }
 
 .home-wrap .content li {
-    width: 228px;
-    height: 285px;
-    padding: 4px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    transition: all .3s ease 0s;
-    margin: 0 6px 20px 5px;
-    float: left;
+  width: 228px;
+  height: 285px;
+  padding: 4px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  transition: all .3s ease 0s;
+  margin: 0 6px 20px 5px;
+  float: left;
 }
 
 .home-wrap .content li:hover {
-    border-color: red;
+  border-color: red;
 }
 
 .home-wrap .content .no-margin-right {
-    margin-right: 0px;
+  margin-right: 0px;
 }
 
 .home-wrap .content .top {
-    overflow: hidden;
+  overflow: hidden;
 }
 
 .home-wrap .content .top a {}
 
 .home-wrap .content .top a img {
-    width: 230px;
-    height: 164px;
-    transition: all 0.8s;
+  width: 230px;
+  height: 164px;
+  transition: all 0.8s;
 }
 
 .home-wrap .content .top a img:hover {
 
-    transform: scale(1.2);
+  transform: scale(1.2);
 }
 
 .home-wrap .content .btm {
-    padding: 10px 0;
-    overflow: hidden;
+  padding: 10px 0;
+  overflow: hidden;
 }
 
 .home-wrap .content .btm h3 {
-    font-size: 18px;
+  font-size: 18px;
 }
 
 .home-wrap .content .btm h3 a:hover {
-    color: red;
+  color: red;
 }
 
 .home-wrap .content .btm div {
-    padding-top: 8px;
-    width: 100%;
-    height: 65px;
-    font-size: 14px;
-    color: #989898;
+  padding-top: 8px;
+  width: 100%;
+  height: 65px;
+  font-size: 14px;
+  color: #989898;
 }
 </style>

@@ -2,7 +2,7 @@
 <div class="footer-wrap">
     <div class="footer">
         <p>Copyright © 2016-2017 <a href="http://www.sasonhe.com">www.sasonhe.com</a></p>
-        <p>All Rights Reserved.Sason He 版权所有. 粤ICP备17104686号</p>
+        <p>All Rights Reserved.Sason He 版权所有. <a href="http://beian.miit.gov.cn">粤ICP备17104686号-1</a></p>
     </div>
 </div>
 </template>
@@ -15,6 +15,8 @@ export default{
 </script>
 <style scoped>
 .footer-wrap{
+    position: fixed;
+    bottom: 0;
     width: 100%;
     height: 50px;
     background: #3b3e43;

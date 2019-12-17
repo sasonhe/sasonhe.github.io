@@ -1,9 +1,9 @@
 <template>
     <div class="info">
-        <img src="../assets/images/mypic.jpg" alt="">
+        <img src="@/assets/psb.jpg" alt="">
         <div class="my-info">
-            <h2>何权春</h2>
-            <h3>Sason He</h3>
+            <h2>web前端</h2>
+            <h3>Json He</h3>
         </div>
         <div class="text">
             <p>I think success has no rules,</p>
@@ -34,5 +34,8 @@ export default {
     padding: 10px;
     font-size: 14px;
     text-align:justify;
+}
+.info img{
+  max-width: 100%;
 }
 </style>
